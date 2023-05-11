@@ -1,0 +1,372 @@
+
+nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+.container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    list-style-type: none;
+    padding: 1rem;
+    margin-left: 600px;
+    align-items: center;
+  }
+  
+.container li a{
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    color: #2E2E2E;
+    font-family: poppins, sans-serif;
+  }
+  
+  #heroImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .right {
+    float: right;
+    width: 90%;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+  
+  .right img {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .right p {
+    margin-right: 20px;
+    margin-top: 250px;
+    font-family: poppins, sans-serif;
+  }
+  
+  
+  .right button {
+    padding: 10px;
+    width: 156px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: poppins, montserrat;
+    background-color: #74D1BF;
+    border-radius: 10px;
+    border-color: #74D1BF;
+    margin: 10px;
+    justify-content: flex-start;
+  }
+  
+  .blurb h2 {
+    position: absolute;
+    left: -101px;
+    width: 60%;
+    background-color: #E8BA28;
+    padding: 30px;
+    border-radius: 67px;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    flex-wrap: wrap;
+    z-index: 1;
+    font-size: 30px;
+  }
+  
+  .icons {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    position: relative;
+    height: 26px;
+  }
+  
+  #samecolor {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0px;
+    overflow: hidden;
+    padding: 0px;
+    max-width: 1fr;
+    background-color: rgb(234, 233, 228);
+  }
+
+  /*MY SKILS--------------------------------*/
+
+  .skills {
+    font-family: montserrat, sans-serif;
+    background-color: #E8BA28;
+    padding: 30px;
+    border-radius: 67px;
+    text-align: right;
+    margin-right: 70%;
+    font-size: 25px;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: poppins, sans-serif;
+    padding: 80px;
+
+  
+  }
+
+  .uxskills, .technicalSkills, .softSkils{
+    justify-content: space-evenly;
+    max-width: 33%;
+    align-items: center;
+    grid-template-rows: 300px, 300px, 300px;
+    grid-template-areas: 
+    "uxskills"
+    "technicalSkills"
+    "softSkills";
+  }
+  
+  .one, .two, .three {
+    text-align: left;
+    color: white;
+    background-color: #2E2E2E;
+    border-radius: 25px;
+    flex-flow: column nowrap;
+    gap: 14px;
+    padding-right: 90px;
+    padding-left: 10px;
+    width: fit-content;
+
+  }
+
+
+
+/*Mywork------------------------------*/
+
+.myWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: poppins, sans-serif;
+  padding: 80px;
+
+}
+
+.workContainer p {
+  word-wrap: break-word;
+  text-align: left;
+}
+
+
+.workContainer button {
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 10px;
+  border-color: #D9D9D9;
+  outline: none;
+  font-family: poppins, sans-serif;
+  background-color: #D9D9D9;
+  font-weight: 200px;
+}
+
+.work {
+  font-family: montserrat, sans-serif;
+  background-color: #E8BA28;
+  padding: 30px;
+  border-radius: 67px;
+  text-align: right;
+  margin-right: 70%;
+  font-size: 25px;
+}
+
+
+/*footer----------------------------*/
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+ .connect{
+    padding:30px;
+
+ } 
+  .connect h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: #2E2E2E;
+    max-width: 660px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .connect a {
+    font-family: montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2E2E2E;
+    text-decoration: none;
+  }
+  
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.links ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #2E2E2E;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+
+.links p {
+    font-family: montserrat, sans-serif;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+.footericons{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    position: relative;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+}
+ .footericons p{
+    font-family: montserrat, sans-serif;
+    font-size: x-small;
+    font-weight: 300;
+    margin-left: auto;
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 1400px;
+  }
+
+/*mobile --------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  
+  .container ul {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  
+  .right {
+    width: 100%;
+    height: auto;
+  }
+  
+  .right img {
+    float: none;
+    margin: 0 auto;
+  }
+  
+  .right p {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .blurb h2 {
+    left: -51px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+  
+  .skills {
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .flexContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .uxskills, .technicalSkills, .softSkils {
+    max-width: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "uxskills"
+    "technicalSkills"
+    "softSkills";
+    text-align: center;
+  }
+  
+  .one, .two, .three {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .work {
+    margin-right: 0;
+    text-align: center;
+  }
+}
