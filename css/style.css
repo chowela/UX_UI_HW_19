@@ -210,6 +210,10 @@ nav {
   text-align: center;
 }
 
+.caseStudy a{
+  text-decoration: none;
+  color: #2E2E2E;
+}
 
 /*footer----------------------------*/
 
